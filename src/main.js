@@ -1,24 +1,18 @@
-// const product = [
-//     {
-//         id: 1,
-//         name: "Product 1",
-//     },
-//     {
-//         id: 2,
-//         name: "Product 2",
-//     },
-// ];
-// const appElement = document.querySelector("#app");
-// if (appElement) {
-//     const result = product.map((item) => item.name);
-
-// }
 import Navigo from "navigo";
+import HomePage from "./pages/homepage";
+import AboutPage from "./pages/about";
+import ProductPage from "./pages/products";
 
 const routes = new Navigo("/", { linksSelector: "a" });
+const rende = (content) => {
+    // console.log(content);
+    document.querySelector("#app").innerHTML = content.print();
+};
 routes.on({
-    "/": () => console.log("Home Page"),
-    "/about": () => console.log("About Page"),
+    "/": () => rende(HomePage), // console.log("Home Page")
+    "/tuyensinh": () => rende(AboutPage), // console.log("Page Tuyển sinh"),
+    "/product": () => rende(ProductPage),
 
 });
-routes.notFound(() => console.log("Not found page"));
+// routes.notFound(() => console.log("Not found page"));
+routes.resolve();
