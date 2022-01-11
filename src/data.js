@@ -9,4 +9,25 @@ export const data = [
         id: 3, title: "Sinh vien FPOLY trai nghiem", desc: "Mo ta cho bai viet 3", img: "https://picsum.photos/300/300",
     },
 ];
-export const menu = ["Trang chủ", "Tuyển sinh", "Trương trình đào tạo", "Góc sinh viên", "Tuyển dụng"];
+export const menu = [
+    {
+        id: "/",
+        title: "Trang chủ",
+    },
+    {
+        id: "/tuyensinh",
+        title: "Tuyển sinh",
+    },
+    {
+        id: "/product",
+        title: "Trương trình đào tạo",
+    },
+    {
+        id: "/detail",
+        title: "Góc sinh viên",
+    },
+    {
+        id: "bcd",
+        title: "Tuyển dụng",
+    },
+];

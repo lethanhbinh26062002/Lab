@@ -12,9 +12,9 @@ const header = {
             <ul class="text-white">
 
             ${menu.map((item) =>/* html */`
-            <li class="inline mx-6 "><a href="/">${item}</a></li>
+            <li class="inline mx-6 "><a href="${item.id}">${item.title}</a></li>
             `).join("")}
-            
+
             </ul>
           </nav>
           <div class="col-span-4 grid grid-cols-4 gap-8">
