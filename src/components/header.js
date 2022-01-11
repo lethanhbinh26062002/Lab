@@ -1,3 +1,5 @@
+import { menu } from "../data";
+
 const header = {
     print() {
         return /* html */`
@@ -8,11 +10,11 @@ const header = {
         <div class="bg-orange-500 grid grid-cols-12 gap-8 py-2">
           <nav class="col-span-8">
             <ul class="text-white">
-              <li class="inline mx-6 "><a href="/">Trang chu</a></li>
-              <li class="inline mx-6 "><a href="tuyensinh">Tuyen sinh</a></li>
-              <li class="inline mx-6 "><a href="product">Chuong trinh dao tao</a></li>
-              <li class="inline mx-6 "><a href="/sinhvien">Goc sinh vien</a></li>
-              <li class="inline mx-6 "><a href="">Tuyen dung</a></li>
+
+            ${menu.map((item) =>/* html */`
+            <li class="inline mx-6 "><a href="/">${item}</a></li>
+            `).join("")}
+            
             </ul>
           </nav>
           <div class="col-span-4 grid grid-cols-4 gap-8">
