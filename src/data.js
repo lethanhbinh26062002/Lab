@@ -19,7 +19,7 @@ export const menu = [
         title: "Tuyển sinh",
     },
     {
-        id: "/daoTao",
+        id: "#",
         title: "Trương trình đào tạo",
     },
     {
