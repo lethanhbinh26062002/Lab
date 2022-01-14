@@ -1,9 +1,12 @@
-import { data } from "../../data";
+import { data } from "../../../data";
+import NavAdmin from "../NavAdmin";
 
 const Products = {
-    print(id) {
-        const result = data.find((post) => post.id === id);
+    print() {
         return /* html */`
+        <div>
+          ${NavAdmin.print()}
+        </div>
         <div class="flex flex-col max-w-6xl mx-auto">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -23,8 +26,11 @@ const Products = {
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Img
                     </th>
-                    <th scope="col" class="relative px-6 py-3">
-                      <span class="sr-only">Edit</span>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                      Edit
+                    </th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    Add News
                     </th>
                   </tr>
                 </thead>
@@ -46,7 +52,10 @@ const Products = {
                     <img src="${x.img}" alt="" width="150px"/>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                      <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                      <a href="admin/News/${x.id}/edit" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                      <a href="admin/News/${x.id}/add" class="text-indigo-600 hover:text-indigo-900">Add New</a>
                     </td>
                   </tr>
                 </tbody>

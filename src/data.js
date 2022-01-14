@@ -19,7 +19,7 @@ export const menu = [
         title: "Tuyển sinh",
     },
     {
-        id: "/product",
+        id: "/daoTao",
         title: "Trương trình đào tạo",
     },
     {
@@ -27,7 +27,7 @@ export const menu = [
         title: "Góc sinh viên",
     },
     {
-        id: "bcd",
-        title: "Tuyển dụng",
+        id: "admin",
+        title: "Admin",
     },
 ];
