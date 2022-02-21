@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "test 2",
+      "img": "http://res.cloudinary.com/dyeta9a1r/image/upload/v1645204158/k2yt6wusgkg9fw2nttyh.png",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality 1"
+    },
+    {
+      "createdAt": "2022-01-18T23:32:25.238Z",
+      "title": "Bennie Moore",
+      "img": "http://placeimg.com/640/480/sports",
+      "desc": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "id": "21"
+    },
+    {
+      "createdAt": "2022-01-18T12:48:44.521Z",
+      "title": "Martha Bauch",
+      "img": "http://placeimg.com/640/480/people",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "27"
+    },
+    {
+      "id": "M7e4cgR",
+      "title": "bbbb",
+      "img": "http://res.cloudinary.com/dyeta9a1r/image/upload/v1645361748/illvmnwb3ldmcmtfiiai.jpg",
+      "desc": "bbbb"
+    },
+    {
+      "title": "bbb",
+      "img": "http://res.cloudinary.com/dyeta9a1r/image/upload/v1645361781/d7ru9jp8psbjyslqebxh.png",
+      "desc": "bbb",
+      "id": "urEwo1i"
+    }
+  ],
+  "users": [
+    {
+      "email": "binhltph16803@fpt.edu.vn",
+      "password": "$2a$10$KO681W2YP7IIsUppwmc5LueTn/wM/nzTyjB1aaFgXqBkexURujZkS",
+      "username": "binh",
+      "id": 3
+    },
+    {
+      "email": "kien123@gmail.com",
+      "password": "$2a$10$e/4Ib9ZdSjfoBF/V7jwsOOUU2Hu.6ADY8hXKkNTCwTdRV82w4AAGq",
+      "username": "kien",
+      "id": 4
+    },
+    {
+      "email": "vu123@gmail.com",
+      "password": "$2a$10$ojzXKKYWOGj01NswiX5KWuQlAR7lpQ7hpoux9ylJ/rgZjb9/WdOyC",
+      "username": "vu",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Test 1",
+      "img": "https://res.cloudinary.com/dyeta9a1r/image/upload/v1645204626/p1_tpt8k8.jpg",
+      "desc": "Car Spare & Parts Up To 30% Off 30% Off All Items For First Sales",
+      "price": "535",
+      "id": "1",
+      "category": "Suspension"
+    },
+    {
+      "name": "Test 2",
+      "img": "https://res.cloudinary.com/dyeta9a1r/image/upload/v1645204626/p3_ucbcur.jpg",
+      "desc": "Car Spare & Parts Up To 30% Off 30% Off All Items For First Sales",
+      "price": "525",
+      "id": "2",
+      "category": "Suspension"
+    },
+    {
+      "name": "Test 3",
+      "img": "https://res.cloudinary.com/dyeta9a1r/image/upload/v1645204626/p4_eo7kcf.jpg",
+      "desc": "Car Spare & Parts Up To 30% Off 30% Off All Items For First Sales",
+      "price": "424",
+      "id": "3",
+      "category": "Tail Light"
+    },
+    {
+      "name": "Test 4",
+      "img": "https://res.cloudinary.com/dyeta9a1r/image/upload/v1645204622/c3_iy4khd.jpg",
+      "desc": "Car Spare & Parts Up To 30% Off 30% Off All Items For First Sales",
+      "price": "123",
+      "id": "4",
+      "category": "Suspension"
+    },
+    {
+      "id": "cvUq4a9",
+      "name": "edit 2",
+      "img": "http://res.cloudinary.com/dyeta9a1r/image/upload/v1645372864/zss8ihfaikm0xary2ci9.png",
+      "desc": "cccc",
+      "price": "456",
+      "category": "Tail Light"
+    }
+  ]
+}
